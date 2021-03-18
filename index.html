@@ -401,7 +401,8 @@
         <div class="col-lg-6">
           <div style="margin-top: 50px; text-align: center;">
             <h4 style="margin-bottom: 30px;">Text Me</h4>
-            <a href="https://web.whatsapp.com/send?phone=+918317481330&amp;text=I wanna talk with you regarding projects. Please, respond to me." target="_blank" class="get-started-btn scrollto" style="margin-left: 20px; margin-right: 20px;"><input class="btn btn-primary" type="button" value="WhatsApp Chat"></a>    
+            <button style="margin-left: 20px; margin-right: 20px;" class="btn btn-primary" onclick="send_whatsapp();">WhatsApp Chat</button>
+           <!-- <a href="https://web.whatsapp.com/send?phone=+918317481330&amp;text=I wanna talk with you regarding projects. Please, respond to me." target="_blank" class="get-started-btn scrollto" style="margin-left: 20px; margin-right: 20px;"><input class="btn btn-primary" type="button" value="WhatsApp Chat"></a>-->    
           </div>
         </div>
         <div class="col-lg-6">
@@ -557,8 +558,8 @@ function send_mail(){
 
     function send_whatsapp(){
       
-      var subject = document.getElementById("message").value
-      window.open(`https://wa.me/+918317481330?text=Hii%20Dheeraj. I want to talk to you regarding ${subject}`)
+      
+      window.open(`https://wa.me/+918317481330?text=Hii%20Dheeraj. I want to talk to you regarding `)
     }
 </script>
 </body>
