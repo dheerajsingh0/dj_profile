@@ -1073,3 +1073,21 @@ section {
     padding: 120px 0;
     color: white;
 }
+@media screen and (min-width: 600px) {
+  #projectdj {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+  }
+}
+@media screen and (min-width: 1800px) {
+  #projectdj {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 2000px) {
+  #projectdj {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+  }
+}
