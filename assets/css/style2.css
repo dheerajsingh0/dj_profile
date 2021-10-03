@@ -117,7 +117,7 @@
   margin: 15px;
   height: 28px;
   width: auto;
-  padding: 0 2rem 2em 2rem;
+  padding: 0px 2rem 3em 2rem;
   justify-items: center;
   text-align: center;
   border-radius: 25px;
@@ -178,7 +178,7 @@
   margin: 15px;
   height: 28px;
   width: auto;
-  padding: 0rem 2rem 2rem 2rem;
+  padding: 0px 2rem 3em 2rem;
   text-align: center;
 
   border-radius: 25px;
@@ -213,8 +213,9 @@
   font-weight: 600;
   margin: 15px;
   height: 30px;
-  width: 150px;
-  padding-top: 5px;
+  width: auto;
+  padding: 0px 2rem 2em 2rem;
+  justify-items: center;
   text-align: center;
   border-radius: 25px;
   font-family: "Open Sans";
